@@ -7,6 +7,10 @@ class PoliticiansController < ApplicationController
     @politicians = Politician.all
   end
 
+  # Send tweet
+  def send_tweet
+    
+  end
   # GET /politicians/1
   # GET /politicians/1.json
   def show
